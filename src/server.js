@@ -23,6 +23,7 @@ class App {
       express: this.express
     })
 
+    this.express.use(express.static(path.resolve(__dirname, 'public'))) // Diz ao express para servir arquivos públicos além das rotas
     this.express.set('view engine', 'njk')
   }
 
