@@ -95,6 +95,12 @@ module.exports = {
 **timestamps** -> Adiciona tabelas _created_datetime_ e _update_datetime_ em cada schema do banco de dados  
 **underscored**:true -> Define as tabelas do banco de dados com nomeação camel_case
 
+# MIGRATIONS
+
+Serve para fazer a migração ou fazer um versionamento das tabelas do banco de dados
+
+
+
 ## Configurando algo
 
 -> src/app/models/index.js
@@ -105,3 +111,4 @@ const env = process.env.NODE_ENV || "development";
 ```
 
 ## Criando views
+
